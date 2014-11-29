@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1614630F1A29CC70006689FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922B5EDA19FF9FAF00508906 /* Main.storyboard */; };
+		161463121A29CC7C006689FE /* ChooseRolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614630D1A29CC24006689FE /* ChooseRolViewController.swift */; };
+		16F9B5491A27E4A2003C99F8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B5ED819FF9FAF00508906 /* GameViewController.swift */; };
 		922B5ED319FF9FAF00508906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B5ED219FF9FAF00508906 /* AppDelegate.swift */; };
 		922B5ED519FF9FAF00508906 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 922B5ED419FF9FAF00508906 /* GameScene.sks */; };
 		922B5ED719FF9FAF00508906 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B5ED619FF9FAF00508906 /* GameScene.swift */; };
-		922B5ED919FF9FAF00508906 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B5ED819FF9FAF00508906 /* GameViewController.swift */; };
-		922B5EDC19FF9FAF00508906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922B5EDA19FF9FAF00508906 /* Main.storyboard */; };
 		922B5EDE19FF9FAF00508906 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922B5EDD19FF9FAF00508906 /* Images.xcassets */; };
 		922B5EE119FF9FAF00508906 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922B5EDF19FF9FAF00508906 /* LaunchScreen.xib */; };
 		922B5EED19FF9FAF00508906 /* PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B5EEC19FF9FAF00508906 /* PongTests.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1614630D1A29CC24006689FE /* ChooseRolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseRolViewController.swift; sourceTree = "<group>"; };
 		922B5ECD19FF9FAF00508906 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922B5ED119FF9FAF00508906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		922B5ED219FF9FAF00508906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				922B5ED619FF9FAF00508906 /* GameScene.swift */,
 				922B5ED819FF9FAF00508906 /* GameViewController.swift */,
 				922B5EDA19FF9FAF00508906 /* Main.storyboard */,
+				1614630D1A29CC24006689FE /* ChooseRolViewController.swift */,
 				922B5EDD19FF9FAF00508906 /* Images.xcassets */,
 				922B5EDF19FF9FAF00508906 /* LaunchScreen.xib */,
 				922B5ED019FF9FAF00508906 /* Supporting Files */,
@@ -201,7 +204,7 @@
 				922B5EE119FF9FAF00508906 /* LaunchScreen.xib in Resources */,
 				922B5EDE19FF9FAF00508906 /* Images.xcassets in Resources */,
 				922B5ED519FF9FAF00508906 /* GameScene.sks in Resources */,
-				922B5EDC19FF9FAF00508906 /* Main.storyboard in Resources */,
+				1614630F1A29CC70006689FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F9B5491A27E4A2003C99F8 /* GameViewController.swift in Sources */,
+				161463121A29CC7C006689FE /* ChooseRolViewController.swift in Sources */,
 				922B5ED719FF9FAF00508906 /* GameScene.swift in Sources */,
-				922B5ED919FF9FAF00508906 /* GameViewController.swift in Sources */,
 				922B5ED319FF9FAF00508906 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
